@@ -1,4 +1,4 @@
-// @/plugins/request/validator
+// src/plugins/request/validator
 import Validator from './validator';
 const validator = new Validator();
 validator

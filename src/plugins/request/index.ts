@@ -1,3 +1,4 @@
+// src/plugins/request
 import { App } from 'vue';
 
 import Request from './request';

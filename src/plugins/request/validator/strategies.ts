@@ -1,4 +1,4 @@
-// @/plugins/request/strategies
+// src/plugins/request/strategies
 import { parseCode, showMsg } from './helper';
 import router from '@/router';
 import { IStrategieInParams, IStrategieType } from './index.type';
