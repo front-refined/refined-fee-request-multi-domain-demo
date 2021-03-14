@@ -1,4 +1,4 @@
-// src/plugins/request
+// src/plugins/request/request
 import axios from 'axios';
 import apiConfig from '@/api.config';
 import _merge from 'lodash/merge';
