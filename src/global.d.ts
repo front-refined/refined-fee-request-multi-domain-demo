@@ -1,3 +1,4 @@
+// src/global.d.ts
 import { ComponentInternalInstance } from 'vue';
 import { AxiosRequestConfig } from 'axios';
 declare global {
