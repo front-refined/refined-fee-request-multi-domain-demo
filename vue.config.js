@@ -22,7 +22,7 @@ const proxy = {
     target: apiConfig(MY_ENV, 'master'),
     secure: true,
     changeOrigin: true,
-    // 代理的时候路径是有 master 的，因为这样子就可以针对代理，不会代理到其他无用的。但实际请求的接口是不需要 master 的，所以在请求前要把它去掉
+    //  代理的时候路径是有 master 的，因为这样子就可以针对代理，不会代理到其他无用的。但实际请求的接口是不需要 master 的，所以在请求前要把它去掉
     pathRewrite: {
       '^/master': ''
     },
